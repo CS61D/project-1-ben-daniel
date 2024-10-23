@@ -1,4 +1,5 @@
-import { Dropzone } from "./components/Dropzone";
+
+import { Dropzone } from "./components/DropzoneNext"
 
 function App() {
   return (
