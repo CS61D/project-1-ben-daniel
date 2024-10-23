@@ -25,7 +25,7 @@ export const Dropzone = () => {
       </div>
 
       {/* Display Dropped Files in Flexboxes */}
-      <div className="mt-4 flex flex-col justify-center gap-4">
+      <div className="mt-4 flex flex-col-reverse justify-center gap-4">
         {files.map((file, index) => (
           <div
             key={index}
